@@ -14,6 +14,9 @@
     }
   },
   {
+    "repoName": "dependency-details"
+  },
+  {
     "repoName": "multiple-maven-dependency-repo",
     "dependencies": [
       {
