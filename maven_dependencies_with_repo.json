@@ -1,52 +1,110 @@
 [
   {
     "repoName": "javaparser-maven-sample",
-    "dependencies": [
-      {
-        "groupId": "com.github.javaparser",
-        "artifactId": "javaparser-core",
-        "version": "3.23.1"
+    "dependencies": {
+      "groupId": {
+        "_text": "com.github.javaparser"
+      },
+      "artifactId": {
+        "_text": "javaparser-core"
+      },
+      "version": {
+        "_text": "3.23.1"
       }
-    ]
+    }
   },
   {
     "repoName": "multiple-maven-dependency-repo",
     "dependencies": [
       {
-        "groupId": "org.springframework.boot",
-        "artifactId": "spring-boot-starter-actuator"
+        "groupId": {
+          "_text": "org.springframework.boot"
+        },
+        "artifactId": {
+          "_text": "spring-boot-starter-actuator"
+        }
       },
       {
-        "groupId": "org.springframework.boot",
-        "artifactId": "spring-boot-starter-web"
+        "groupId": {
+          "_text": "org.springframework.boot"
+        },
+        "artifactId": {
+          "_text": "spring-boot-starter-web"
+        }
       },
       {
-        "groupId": "org.springframework.boot",
-        "artifactId": "spring-boot-starter-jdbc"
+        "groupId": {
+          "_text": "org.springframework.boot"
+        },
+        "artifactId": {
+          "_text": "spring-boot-starter-jdbc"
+        }
       },
       {
-        "groupId": "org.apache.httpcomponents",
-        "artifactId": "httpclient"
+        "groupId": {
+          "_text": "org.apache.httpcomponents"
+        },
+        "artifactId": {
+          "_text": "httpclient"
+        },
+        "scope": {
+          "_text": "runtime"
+        }
       },
       {
-        "groupId": "com.h2database",
-        "artifactId": "h2"
+        "groupId": {
+          "_text": "com.h2database"
+        },
+        "artifactId": {
+          "_text": "h2"
+        },
+        "scope": {
+          "_text": "runtime"
+        }
       },
       {
-        "groupId": "org.springframework.boot",
-        "artifactId": "spring-boot-configuration-processor"
+        "groupId": {
+          "_text": "org.springframework.boot"
+        },
+        "artifactId": {
+          "_text": "spring-boot-configuration-processor"
+        },
+        "optional": {
+          "_text": "true"
+        }
       },
       {
-        "groupId": "org.springframework.boot",
-        "artifactId": "spring-boot-starter-test"
+        "groupId": {
+          "_text": "org.springframework.boot"
+        },
+        "artifactId": {
+          "_text": "spring-boot-starter-test"
+        },
+        "scope": {
+          "_text": "test"
+        }
       },
       {
-        "groupId": "io.rest-assured",
-        "artifactId": "rest-assured"
+        "groupId": {
+          "_text": "io.rest-assured"
+        },
+        "artifactId": {
+          "_text": "rest-assured"
+        },
+        "scope": {
+          "_text": "test"
+        }
       },
       {
-        "groupId": "org.codehaus.groovy",
-        "artifactId": "groovy-all"
+        "groupId": {
+          "_text": "org.codehaus.groovy"
+        },
+        "artifactId": {
+          "_text": "groovy-all"
+        },
+        "scope": {
+          "_text": "test"
+        }
       }
     ]
   }
