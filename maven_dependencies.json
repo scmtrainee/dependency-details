@@ -3,5 +3,41 @@
     "groupId": "com.github.javaparser",
     "artifactId": "javaparser-core",
     "version": "3.23.1"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-actuator"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-web"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-jdbc"
+  },
+  {
+    "groupId": "org.apache.httpcomponents",
+    "artifactId": "httpclient"
+  },
+  {
+    "groupId": "com.h2database",
+    "artifactId": "h2"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-configuration-processor"
+  },
+  {
+    "groupId": "org.springframework.boot",
+    "artifactId": "spring-boot-starter-test"
+  },
+  {
+    "groupId": "io.rest-assured",
+    "artifactId": "rest-assured"
+  },
+  {
+    "groupId": "org.codehaus.groovy",
+    "artifactId": "groovy-all"
   }
 ]
